@@ -1,0 +1,25 @@
+[
+    {
+      "id" : "1",
+      "title" : "Odaiba Beach",
+      "subtitle" : "Spend some time on the beach. But it is not allowed to swim here.",
+      "latitude" :  35.632250,
+      "longitude" : 139.779058,
+    },
+    {
+    "id" : "2",
+    "title" : "Unicorn Gundam Statue",
+    "subtitle" : "If you like Gundam you came to the right place",
+    "latitude" : 35.624495,
+    "longitude" : 139.775273,
+  },
+  {
+    "id" : "3",
+    "title" : "Tokyo Big Sight",
+    "subtitle" : "One of the stangest buildings you will ever see",
+    "latitude" : 35.629958,
+    "longitude" : 139.794242,
+  }
+ ]
+
+
