@@ -40,8 +40,6 @@ struct MapView : UIViewRepresentable
       mapView.removeAnnotations(mapView.annotations)
       mapView.addAnnotations(landmarks)
     }
-    
-
 }
 
 struct MapView_Previews: PreviewProvider {

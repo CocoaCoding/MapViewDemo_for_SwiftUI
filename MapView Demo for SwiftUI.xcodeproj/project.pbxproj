@@ -21,10 +21,11 @@
 		3F11FF7A23A63C6D00D6EB18 /* MapViewCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F11FF7923A63C6D00D6EB18 /* MapViewCoordinator.swift */; };
 		3F11FF7C23A6408500D6EB18 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F11FF7B23A6408500D6EB18 /* ContentView.swift */; };
 		3F11FF7E23A6661C00D6EB18 /* StringLayoutHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F11FF7D23A6661C00D6EB18 /* StringLayoutHelper.swift */; };
+		3F8B3C2F23DF6ACB00C7E456 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 3F8B3C2E23DF6ACB00C7E456 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		3F11FF5423A62E3C00D6EB18 /* MapKitDemo_SwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MapKitDemo_SwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F11FF5423A62E3C00D6EB18 /* MapView Demo for SwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MapView Demo for SwiftUI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F11FF5723A62E3C00D6EB18 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3F11FF5923A62E3C00D6EB18 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		3F11FF5C23A62E3C00D6EB18 /* MapKitDemo_SwiftUI.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MapKitDemo_SwiftUI.xcdatamodel; sourceTree = "<group>"; };
@@ -40,6 +41,7 @@
 		3F11FF7923A63C6D00D6EB18 /* MapViewCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewCoordinator.swift; sourceTree = "<group>"; };
 		3F11FF7B23A6408500D6EB18 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		3F11FF7D23A6661C00D6EB18 /* StringLayoutHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = StringLayoutHelper.swift; path = MapKitDemo_SwiftUI/StringLayoutHelper.swift; sourceTree = SOURCE_ROOT; };
+		3F8B3C2E23DF6ACB00C7E456 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 		3F11FF4B23A62E3C00D6EB18 = {
 			isa = PBXGroup;
 			children = (
+				3F8B3C2E23DF6ACB00C7E456 /* README.md */,
 				3F11FF5623A62E3C00D6EB18 /* MapKitDemo_SwiftUI */,
 				3F11FF5523A62E3C00D6EB18 /* Products */,
 			);
@@ -64,7 +67,7 @@
 		3F11FF5523A62E3C00D6EB18 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				3F11FF5423A62E3C00D6EB18 /* MapKitDemo_SwiftUI.app */,
+				3F11FF5423A62E3C00D6EB18 /* MapView Demo for SwiftUI.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -110,9 +113,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		3F11FF5323A62E3C00D6EB18 /* MapKitDemo_SwiftUI */ = {
+		3F11FF5323A62E3C00D6EB18 /* MapView Demo for SwiftUI */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3F11FF6B23A62E3D00D6EB18 /* Build configuration list for PBXNativeTarget "MapKitDemo_SwiftUI" */;
+			buildConfigurationList = 3F11FF6B23A62E3D00D6EB18 /* Build configuration list for PBXNativeTarget "MapView Demo for SwiftUI" */;
 			buildPhases = (
 				3F11FF5023A62E3C00D6EB18 /* Sources */,
 				3F11FF5123A62E3C00D6EB18 /* Frameworks */,
@@ -122,9 +125,9 @@
 			);
 			dependencies = (
 			);
-			name = MapKitDemo_SwiftUI;
+			name = "MapView Demo for SwiftUI";
 			productName = MapKitDemo_SwiftUI;
-			productReference = 3F11FF5423A62E3C00D6EB18 /* MapKitDemo_SwiftUI.app */;
+			productReference = 3F11FF5423A62E3C00D6EB18 /* MapView Demo for SwiftUI.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -142,7 +145,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 3F11FF4F23A62E3C00D6EB18 /* Build configuration list for PBXProject "MapKitDemo_SwiftUI" */;
+			buildConfigurationList = 3F11FF4F23A62E3C00D6EB18 /* Build configuration list for PBXProject "MapView Demo for SwiftUI" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -155,7 +158,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				3F11FF5323A62E3C00D6EB18 /* MapKitDemo_SwiftUI */,
+				3F11FF5323A62E3C00D6EB18 /* MapView Demo for SwiftUI */,
 			);
 		};
 /* End PBXProject section */
@@ -167,6 +170,7 @@
 			files = (
 				3F11FF6723A62E3D00D6EB18 /* LaunchScreen.storyboard in Resources */,
 				3F11FF6423A62E3D00D6EB18 /* Preview Assets.xcassets in Resources */,
+				3F8B3C2F23DF6ACB00C7E456 /* README.md in Resources */,
 				3F11FF6123A62E3D00D6EB18 /* Assets.xcassets in Resources */,
 				3F11FF7823A6353600D6EB18 /* landmarks.json in Resources */,
 			);
@@ -363,7 +367,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		3F11FF4F23A62E3C00D6EB18 /* Build configuration list for PBXProject "MapKitDemo_SwiftUI" */ = {
+		3F11FF4F23A62E3C00D6EB18 /* Build configuration list for PBXProject "MapView Demo for SwiftUI" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3F11FF6923A62E3D00D6EB18 /* Debug */,
@@ -372,7 +376,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3F11FF6B23A62E3D00D6EB18 /* Build configuration list for PBXNativeTarget "MapKitDemo_SwiftUI" */ = {
+		3F11FF6B23A62E3D00D6EB18 /* Build configuration list for PBXNativeTarget "MapView Demo for SwiftUI" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3F11FF6C23A62E3D00D6EB18 /* Debug */,
